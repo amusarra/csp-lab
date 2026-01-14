@@ -116,17 +116,17 @@ Template HTML:
 
 Riferimenti e strumenti utili per approfondire Content Security Policy (CSP):
 
-- OWASP — Content Security Policy Cheat Sheet  
+- OWASP - Content Security Policy Cheat Sheet  
   https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html
-- W3C — Content Security Policy (specifica)  
+- W3C - Content Security Policy (specifica)  
   https://www.w3.org/TR/CSP3/
-- MDN Web Docs — Content Security Policy (guida e riferimenti)  
+- MDN Web Docs - Content Security Policy (guida e riferimenti)  
   https://developer.mozilla.org/docs/Web/HTTP/CSP
-- Google CSP Evaluator — strumento per analizzare le policy CSP  
+- Google CSP Evaluator - strumento per analizzare le policy CSP  
   https://csp-evaluator.withgoogle.com/
-- Report-uri / Report collection tools — servizi e strumenti per raccogliere report CSP  
+- Report-uri / Report collection tools - servizi e strumenti per raccogliere report CSP  
   https://report-uri.com/ (o usare endpoint locali come `/csp-report`)
-- CSP Mitigations & Reporting (W3C) — dettagli su reporting e meccanismi correlati  
+- CSP Mitigations & Reporting (W3C) - dettagli su reporting e meccanismi correlati  
   https://www.w3.org/TR/CSP3/#reporting
 
 Suggerimento: consultare queste risorse per costruire policy robuste, testarle in modalità `report-only` e comprendere i trade-off tra sicurezza e funzionalità dell'applicazione.
