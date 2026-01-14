@@ -62,7 +62,8 @@ A seguire sono elencati gli endpoint principali del progetto:
      - il font `awsone.woff2` viene caricato; 
      - gli script inline senza nonce sono bloccati;
      - gli script legittimi (con nonce o da `self`) funzionano.
-   - Strumenti: usare la console del browser per osservare le violazioni CSP.
+   - Strumenti: usare la console del browser per osservare le violazioni CSP, la presenza degli header HTTP, il caricamento delle risorse e il comportamento della pagina.
+   - Suggerimento: iniziare con una policy restrittiva (es. `default-src 'none';`) e aggiungere le direttive necessarie per permettere il caricamento delle risorse legittime.
    - Nota: in questa fase non è ancora necessario implementare il filtro o il nonce; si tratta di progettare la policy e usare `application.properties` per applicarla.
 
 3) Implementare `CspFilter` e far funzionare `src/main/resources/templates/nonce-index.html` sotto una CSP sicura
