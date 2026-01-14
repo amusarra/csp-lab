@@ -36,6 +36,7 @@ A seguire alcune risorse utili per lavorare con Quarkus e in particolare con i f
 - Documentazione ufficiale Quarkus: https://quarkus.io/guides/
 - Request or response filters: https://quarkus.io/guides/rest#request-or-response-filters
 - Qute Templating Engine: https://quarkus.io/guides/qute
+- Quarkus All configuration Reference: https://quarkus.io/guides/all-config. Cercare **http.header** per vedere come impostare header HTTP
 
 ## Endpoint principali
 
