@@ -11,7 +11,7 @@ Questo repository è un laboratorio didattico per sperimentare le Content Securi
 
 ## Requisiti per l'esecuzione del progetto
 
-Il progetto di questo laboratorio è basato su Quarkus e Java. Per eseguirlo localmente, sono necessari i seguenti prerequisiti:
+Il progetto di questo laboratorio è basato su Quarkus (versione 3.30.5) e Java. Per eseguirlo localmente, sono necessari i seguenti prerequisiti:
 
 - Java 17 o superiore installato e configurato (JAVA_HOME). Quarkus 3 richiede Java 17+.
 - Maven (è presente il wrapper ./mvnw) o Gradle come tool di build.
